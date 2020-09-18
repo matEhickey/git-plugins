@@ -1,0 +1,12 @@
+#!/bin/bash
+# configure repo to use the personnal commiter profile
+
+#!/bin/bash
+
+git config user.name matEhickey
+git config user.email mathias.didier7@wanadoo.fr
+
+echo "name and email set too personnal github"
+echo "you may want to:"
+echo "git commit --amend --reset-author"
+
